@@ -17,8 +17,8 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/pocket.html',
+        controller: 'CaculatorCtrl'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
